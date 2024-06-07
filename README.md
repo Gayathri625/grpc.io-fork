@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # grpc.io-fork
 =======
 # gRPC website
@@ -83,4 +82,3 @@ We welcome issues and PRs! For details, see [Contribute][].
 [LTS release]: https://nodejs.org/en/about/releases/
 [Netlify]: https://netlify.com
 [nvm]: https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating
->>>>>>> upstream/main
