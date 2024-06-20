@@ -2,13 +2,11 @@
 title: Guides
 description: Task-oriented walkthroughs of common use cases
 weight: 4
-nav_children: pages
-# menu: {main: {weight: 20, parent: Docs}}
-# menus: main
+nav_children: page
 menu:
-  main: {weight: 2}
+  main: {weight: 3}
 ---
-<div class = "youtube-video">
-  {{< youtube cSGBbwvW1y4 >}}
-</div>
+
+{{< youtube cSGBbwvW1y4 youtube-video >}}
+
 The documentation covers the following techniques:

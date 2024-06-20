@@ -450,4 +450,11 @@ c - Component (Aware of its content/context...)
 .youtube-video {
   width: 560px;
   height: 315px;
+  position: relative;
+}
+
+.youtube-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
