@@ -1,4 +1,4 @@
 [submodule "themes/docsy"]
 	path = themes/docsy
-	url = https://github.com/Gayathri625/docsy-test.git
-	branch = grpc.io
+	url = https://github.com/Gayathri625/grpc.io-docsy.git
+	branch = docsy-demo
