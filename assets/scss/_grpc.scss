@@ -17,9 +17,7 @@ a > span > .fa-external-link-alt::before {
   opacity: 0.8;
   vertical-align: top;
 }
-.td-sidebar{
-  padding-top: 5rem;
-}
+
 .td-sidebar-nav a[target="_blank"]:after {
   @extend .fas;
   font-size: 50%;
@@ -61,7 +59,7 @@ sections site wide to the original site's background svg.
 // Extend the sidebar to the end of the visible page.
 .td-sidebar-toc {
   height: initial;
-  padding-top: 5rem;
+  padding-top: 4.75rem;
 }
 
 .td-sidebar-nav__section .ul-1 ul {
@@ -238,6 +236,7 @@ c - Component (Aware of its content/context...)
   top: 4rem;
   background: $light;
   text-align: center;
+
   & p {
     padding: 0.5rem;
   }
@@ -446,7 +445,6 @@ c - Component (Aware of its content/context...)
     display: none;
   }
 }
-
 .youtube-video {
   width: 560px;
   height: 315px;
