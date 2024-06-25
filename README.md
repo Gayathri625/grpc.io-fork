@@ -39,6 +39,23 @@ To locally serve the site at [localhost:8888][], run the following command:
 $ npm run serve
 ```
 
+## Setting up Google Tag Manager (GTM)
+
+To use GTM on the website, replace GTM ID under the params section in config.yaml
+
+```console
+#config.yaml
+
+params:
+  gtmID: "GTM-XXXXXXXX" #Replace with your GTM ID
+```
+
+Verify the GTM setup using preview mode
+
+1. Click on Preview in GTM
+2. Provide the website URL
+3. Ensure that Tag Assistant Connected is displayed for a successful setup.
+   
 ## Site deploys and PR previews
 
 If you submit a PR, Netlify will create a [deploy preview][] so that you can
