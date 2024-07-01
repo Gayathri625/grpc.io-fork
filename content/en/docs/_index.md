@@ -26,6 +26,9 @@ material for all supported [languages][] and [platforms][]:
   - Select a [language][] or [platform][], then choose **Tutorial** or **API reference**
   - [Guides](guides/)
 
+
+{{< youtube njC24ts24Pg youtube-video>}}
+
 ### Official support
 
 These are the officially supported gRPC language, platform and OS versions:
