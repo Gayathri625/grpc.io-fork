@@ -9,6 +9,11 @@ what the workaround is for
   cursor: pointer;
 }
 
+// ensure enough space for banner without overlapping with the main section
+.banner-container { 
+  height: 60px;
+}
+
 // External link icon
 a > .fa-external-link-alt::before,
 a > span > .fa-external-link-alt::before {
@@ -42,6 +47,11 @@ sections site wide to the original site's background svg.
 // to hide the span text, leaving only the logo svg
 .td-navbar .navbar-brand span:last-child {
   display: none;
+}
+
+// use variable for navbar z-index as banner z-index depends on it
+.td-navbar {
+  z-index: $navbar-z-index;
 }
 
 // This adds rounded corners to the search inputs, since a Docsy
@@ -229,10 +239,10 @@ c - Component (Aware of its content/context...)
 // Object
 .o-banner {
   width: 100%;
-  position: fixed;
-  margin-left: -15px;
+  position: absolute;
   padding-top: 15px;
-  z-index: 32;
+  // keep banner's z-index value less than the navbar, so that banner moves beneath the navbar when user scrolls the page
+  z-index: $navbar-z-index - 1;
   top: 4rem;
   background: $light;
   text-align: center;
@@ -444,4 +454,10 @@ c - Component (Aware of its content/context...)
   .c-global-meta-links {
     display: none;
   }
+}
+
+.youtube-video iframe {
+  width: 560px;
+  height: 315px;
+  border: 0;
 }
