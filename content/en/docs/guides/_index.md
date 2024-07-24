@@ -7,6 +7,4 @@ menu:
   main: {weight: 3}
 ---
 
-{{< youtube cSGBbwvW1y4 youtube-video >}}
-
 The documentation covers the following techniques:
